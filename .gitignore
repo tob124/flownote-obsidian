@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+.env*
+*.zip
+FlowNote-Vault/.obsidian/*
+!FlowNote-Vault/.obsidian/plugins/
+FlowNote-Vault/.obsidian/plugins/*
+!FlowNote-Vault/.obsidian/plugins/flownote-assistant/
+FlowNote-Vault/.obsidian/plugins/flownote-assistant/*
+!FlowNote-Vault/.obsidian/plugins/flownote-assistant/main.js
+!FlowNote-Vault/.obsidian/plugins/flownote-assistant/manifest.json
+!FlowNote-Vault/.obsidian/plugins/flownote-assistant/styles.css

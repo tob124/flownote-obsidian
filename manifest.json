@@ -1,0 +1,9 @@
+{
+  "id": "flownote-assistant",
+  "name": "FlowNote Assistant",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.5",
+  "description": "Capture ideas, build topic wikis, and revisit old notes without overwriting their text.",
+  "author": "tob124",
+  "isDesktopOnly": false
+}

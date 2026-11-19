@@ -1,0 +1,23 @@
+.flownote-dialog .flownote-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-block: 0.75rem;
+}
+
+.flownote-dialog .flownote-field :is(input, textarea, select) {
+  width: 100%;
+}
+
+.flownote-dialog textarea {
+  min-height: 4rem;
+  resize: vertical;
+}
+
+.flownote-dialog .modal-button-container {
+  flex-wrap: wrap;
+}
+
+.flownote-error:not(:empty) {
+  color: var(--text-error);
+}

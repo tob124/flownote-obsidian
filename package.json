@@ -1,0 +1,13 @@
+{
+  "name": "flownote-obsidian",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test",
+    "check": "npm run build && npm test && node --check FlowNote-Vault/.obsidian/plugins/flownote-assistant/main.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

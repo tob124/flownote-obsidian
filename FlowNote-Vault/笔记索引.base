@@ -1,0 +1,36 @@
+filters:
+  and:
+    - 'file.inFolder("收件箱")'
+    - 'note.kind == "flow-note"'
+properties:
+  note.title:
+    displayName: 标题
+  note.topic:
+    displayName: 主题
+  note.created:
+    displayName: 记录时间
+  note.tags:
+    displayName: 标签
+  note.summary:
+    displayName: 摘要
+views:
+  - type: table
+    name: 全部记录
+    order:
+      - file.name
+      - note.title
+      - note.topic
+      - note.created
+      - note.tags
+    sort:
+      - property: note.created
+        direction: DESC
+  - type: table
+    name: 待整理
+    filters:
+      and:
+        - 'note.status == "inbox"'
+    order:
+      - file.name
+      - note.title
+      - note.created
